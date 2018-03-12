@@ -43,7 +43,7 @@ OpenJPA Maven Plugin
 
 +----------+
   <plugin>
-    <groupId>org.apache.openjpa</groupId>
+    <groupId>org.wso2.org.apache.openjpa</groupId>
     <artifactId>openjpa-maven-plugin</artifactId>
     <version>1.2</version>
     <configuration>
