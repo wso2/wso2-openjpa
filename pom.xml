@@ -142,11 +142,15 @@
       </site>
     </distributionManagement-->
 
-    <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/openjpa/tags/2.2.0</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/openjpa/tags/2.2.0</developerConnection>
-        <url>http://svn.apache.org/repos/asf/openjpa/tags/2.2.0</url>
-    </scm>
+  <!-- ====================================================================== -->
+  <!-- S C M                                                                  -->
+  <!-- ====================================================================== -->
+  <scm>
+    <connection>scm:https://github.com/wso2/wso2-openjpa.git</connection>
+    <developerConnection>scm:git:https://github.com/wso2/wso2-openjpa.git</developerConnection>
+    <url>https://github.com/wso2/wso2-openjpa.git</url>
+    <tag>HEAD</tag>
+</scm>
 
     <modules>
         <module>openjpa-lib</module>
