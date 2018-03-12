@@ -26,12 +26,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.wso2.org.apache.openjpa</groupId>
+        <groupId>org.apache.openjpa</groupId>
         <artifactId>openjpa-parent</artifactId>
-        <version>2.2.0-wso2v2</version>
+        <version>2.2.0-wso2v1</version>
     </parent>
 
-    <groupId>org.wso2.org.apache.openjpa</groupId>
+    <groupId>org.apache.openjpa</groupId>
     <artifactId>openjpa-all</artifactId>
     <packaging>jar</packaging>
     <name>OpenJPA Aggregate Jar with Dependencies</name>
@@ -124,7 +124,7 @@
             determine the transitive dependencies to include from it.
         -->
         <dependency>
-            <groupId>org.wso2.org.apache.openjpa</groupId>
+            <groupId>org.apache.openjpa</groupId>
             <artifactId>openjpa</artifactId>
             <version>${project.version}</version>
         </dependency>

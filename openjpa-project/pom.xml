@@ -37,12 +37,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.wso2.org.apache.openjpa</groupId>
+        <groupId>org.apache.openjpa</groupId>
         <artifactId>openjpa-parent</artifactId>
-        <version>2.2.0-wso2v2</version>
+        <version>2.2.0-wso2v1</version>
     </parent>
 
-    <groupId>org.wso2.org.apache.openjpa</groupId>
+    <groupId>org.apache.openjpa</groupId>
     <artifactId>apache-openjpa</artifactId>
     <packaging>pom</packaging>
     <name>OpenJPA Project Docs and Assemblies</name>
@@ -426,12 +426,12 @@
     <!-- need to explicitly list dependencies for assembly to work -->
     <dependencies>
         <dependency>
-            <groupId>org.wso2.org.apache.openjpa</groupId>
+            <groupId>org.apache.openjpa</groupId>
             <artifactId>openjpa</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.wso2.org.apache.openjpa</groupId>
+            <groupId>org.apache.openjpa</groupId>
             <artifactId>openjpa-all</artifactId>
             <version>${project.version}</version>
         </dependency>
