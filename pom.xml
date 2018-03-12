@@ -142,11 +142,15 @@
       </site>
     </distributionManagement-->
 
-    <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/openjpa/tags/2.2.0</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/openjpa/tags/2.2.0</developerConnection>
-        <url>http://svn.apache.org/repos/asf/openjpa/tags/2.2.0</url>
-    </scm>
+  <!-- ====================================================================== -->
+  <!-- S C M                                                                  -->
+  <!-- ====================================================================== -->
+  <scm>
+    <connection>scm:https://github.com/wso2/wso2-openjpa.git</connection>
+    <developerConnection>scm:git:https://github.com/wso2/wso2-openjpa.git</developerConnection>
+    <url>https://github.com/wso2/wso2-openjpa.git</url>
+    <tag>HEAD</tag>
+</scm>
 
     <modules>
         <module>openjpa-lib</module>
@@ -1141,18 +1145,5 @@
             </plugin>
         </plugins>
     </reporting>
-
-<distributionManagement>
-        <repository>
-            <id>wso2-maven2-repository</id>
-            <name>WSO2 Maven2 Repository</name>
-            <url>scp://dist.wso2.org/home/httpd/dist.wso2.org/maven2/</url>
-        </repository>
-        <!--snapshotRepository>
-            <id>wso2-maven2-snapshot-repository</id>
-            <name>WSO2 Maven2 Snapshot Repository</name>
-            <url>scp://dist.wso2.org/home/httpd/dist.wso2.org/snapshots/maven2/</url>
-        </snapshotRepository-->
-    </distributionManagement>
 
 </project>
