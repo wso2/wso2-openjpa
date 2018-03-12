@@ -146,11 +146,11 @@
   <!-- S C M                                                                  -->
   <!-- ====================================================================== -->
   <scm>
-    <connection>scm:https://github.com/wso2/wso2-openjpa.git</connection>
-    <developerConnection>scm:git:https://github.com/wso2/wso2-openjpa.git</developerConnection>
-    <url>https://github.com/wso2/wso2-openjpa.git</url>
-    <tag>HEAD</tag>
-</scm>
+      <connection>scm:svn:http://svn.apache.org/repos/asf/openjpa/tags/2.2.0</connection>
+      <developerConnection>scm:svn:https://svn.apache.org/repos/asf/openjpa/tags/2.2.0</developerConnection>
+      <url>http://svn.apache.org/repos/asf/openjpa/tags/2.2.0</url>
+
+  </scm>
 
     <modules>
         <module>openjpa-lib</module>
@@ -1145,5 +1145,18 @@
             </plugin>
         </plugins>
     </reporting>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>wso2.snapshots</id>
+            <name>Apache Snapshot Repository</name>
+            <url>http://maven.wso2.org/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-releases</id>
+            <name>WSO2 Release Distribution Repository</name>
+            <url>http://maven.wso2.org/nexus/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
