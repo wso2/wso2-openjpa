@@ -18,9 +18,9 @@
  */
 package org.apache.openjpa.lib.log;
 
-import org.apache.log4j.Level;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * {@link LogFactory} implementation that delegates to the Log4J framework.
@@ -50,23 +50,23 @@ public class Log4JLogFactory extends LogFactoryAdapter {
         }
 
         public boolean isTraceEnabled() {
-            return _log.isEnabledFor(Level.DEBUG);
+            return _log.isEnabled(Level.DEBUG);
         }
 
         public boolean isInfoEnabled() {
-            return _log.isEnabledFor(Level.INFO);
+            return _log.isEnabled(Level.INFO);
         }
 
         public boolean isWarnEnabled() {
-            return _log.isEnabledFor(Level.WARN);
+            return _log.isEnabled(Level.WARN);
         }
 
         public boolean isErrorEnabled() {
-            return _log.isEnabledFor(Level.ERROR);
+            return _log.isEnabled(Level.ERROR);
         }
 
         public boolean isFatalEnabled() {
-            return _log.isEnabledFor(Level.FATAL);
+            return _log.isEnabled(Level.FATAL);
         }
 
         public void trace(Object o) {
